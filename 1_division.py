@@ -25,3 +25,20 @@
 # Operation finished.
 
 # write your code here:
+
+
+try:
+    number1 = int(input("Please write number: "))
+    number2 = int(input("Type one more number: "))  
+    result = number1 / number2
+
+except:
+    print("There was something wrong")
+else:
+    print("There were no errors")
+finally:
+       
+    print(f"Division successful! Result: {result}")
+    print("Operation finished.")
+
+    
